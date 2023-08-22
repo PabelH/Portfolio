@@ -62,3 +62,6 @@ input:checked + .slider:before {
 }
 
 /*  */
+#logo{
+  border-radius: 50%;
+}
