@@ -198,3 +198,83 @@ h1 {
 .round-logo{
   border-radius: 50%;
 }
+
+/* Projects */
+
+.recent-projects {
+  padding: 40px;
+}
+
+.recent-projects img {
+  height: 250px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.projects-container {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.project {
+  position: relative;
+}
+
+.project:hover img {
+  opacity: 0.2;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
+/* .project-img{
+  width: 200px;
+  height: 150px;
+} */
+
+
+
+button{
+  align-self:center;
+  background:transparent;
+  margin:10px;
+  transition:all .5s ease;
+  font-size:2rem;
+  letter-spacing:1px;
+  outline:none;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border:solid 7px #41403E;
+}
