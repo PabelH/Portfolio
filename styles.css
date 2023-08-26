@@ -175,7 +175,7 @@ h1 {
 }
 
 .recent-projects img {
-  height: 250px;
+  height: 100%;
   width: 100%;
   padding: 10px;
   border-radius: 10px;
