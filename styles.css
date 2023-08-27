@@ -294,6 +294,10 @@ button{
   font-size: 0.9rem;
   color: #656060;
 }
+.carousel-control-prev, .carousel-control-next{
+  border: none !important;
+  box-shadow: none !important;
+}
 
 /* Contact */
 
@@ -301,6 +305,7 @@ button{
   max-width: 1100px;
   min-height: 200px;
   padding: 20px;
+  color: white;
 }
 
 .contact .rectangle {
@@ -317,7 +322,6 @@ button{
 }
 
 .contact .description {
-  color: white;
   font-size: 1.2rem;
 }
 
@@ -332,9 +336,11 @@ button{
 }
 
 .contact button i {
-  color: white;
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
+}
+#contbutton{
+  color: white;
 }
 
 .contact button:hover i {
