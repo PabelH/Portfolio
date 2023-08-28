@@ -123,17 +123,22 @@ h1 {
 }
 
 /* Formation Experience */
-
-.experience {
-  padding: 40px 40px 60px 40px;
+.experience{
+  margin-top: 4rem;
+}
+.experience-p {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
 }
 
 .experience .column {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
   transition: all 0.2s ease-in;
+  
+  
 }
 
 .experience .columna:hover {
@@ -152,13 +157,14 @@ h1 {
 .experience-title {
   font-size: 25px;
   font-weight: bold;
-  margin: 10px 0;
+ 
 }
 
 .badges-contenedor {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;
+  
 }
 
 .badge {
