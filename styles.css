@@ -4,6 +4,13 @@ body {
 }
 
 /* Nav Bar */
+.sun-logo{
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: auto;
+  margin-right: 5px;
+}
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;  
